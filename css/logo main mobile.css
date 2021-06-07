@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; display:block; color:#333;}
+fieldset{border:0;}
+legend{
+    position:absolute;
+    left:-999px;}
+
+.form{
+    width: 375px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    padding: 0 32px;
+    background: url(../img/mountain\ phone.jpg) center center / cover no-repeat;
+    
+}
+.form h1{
+    text-align: center;
+    margin-top: 60px;}
+.form h1 a{color:#fff;}
+fieldset>div>label{position: absolute; left:-999px;}
+fieldset{
+    /* background-color: lightpink; */
+margin-top:100px;
+text-align: center;}
+
+input[type="text"], input[type="password"]
+{width:300px;
+height: 80px;
+border-radius:50px;
+border: 1px solid#fff;
+font-size: 18px;
+text-align: center;
+margin-bottom: 20px;}
+input[type="text"], input[type="passsword"]
+{outline: 1px solid transparent}
+.button01 button, .button02 button{
+    width: 300px;
+    height:80px;
+    border-radius: 50px;
+    border: 1px solid transparent;
+    font-size:18px;}
+.button01 button a, .button02 button a
+{color: #fff;}
+.button01 button
+{background-color: rgb(13,52,90, .8);
+margin-bottom: 20px;}
+.button01 button a{color:#fff;}
+.button02 button
+{background-color:rgb(250,225,0, .8);}
+.sec{
+    /* background-color:yellowgreen; */
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.sec a{
+    font-size: 14px;
+    line-height: 25px;
+    color: #fff; 
+}

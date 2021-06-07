@@ -1,0 +1,113 @@
+@charset "utf-8";
+
+*{margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; display:block; color:#333;}
+fieldset{border:0;}
+legend{
+    position:absolute;
+    left:-99999px;
+}
+
+#form{
+    width: 375px;
+    border: 1px solid #333;
+    padding: 0 25px 60px 25px;
+    margin: 50px auto;
+    
+}
+#form h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:45px;
+}
+#form h1 a{
+    color:#0D345A;}
+fieldset > div > label{
+    width: 100px;
+    background-color:aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    color:#000;
+    position: absolute;
+}
+fieldset > div {
+    position: relative;
+    top: 0;
+    
+}
+input[type]{
+    width:325px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+
+}
+.sec01> input[type="text"], .sec03> input[type="text"]{
+ width: 225px;
+ height: 35px;
+}
+.sec02> input[type="text"]
+{width: 102px;
+height: 32px;}
+.sec01 button{
+    width: 92px;
+    height: 35px;
+    background-color: #0D345A;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.sec01 a{color:#fff;
+font-size: 14px;}
+.sec03 button{
+    width: 120px;
+    height: 35px;
+    background-color: #0D345A;
+    border-radius: 50px;
+    border: 1px solid transparent;
+}
+.sec03 a{
+    color:#fff;
+    font-size: 14px;
+}
+.sec02 select{
+    width: 102px;
+    height: 32px;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+select{
+    width: 325px;
+    height: 35px;
+    border-radius:50px;
+    border: 1px solid #000;
+}
+.sec03 button{margin-bottom:0;}
+.button{
+    height: 100px;
+    /* background-color: turquoise; */
+    text-align:center;
+    padding: 0 20px;
+}
+button{
+    width: 153px;
+    height: 35px;
+    /* margin-bottom: 60px; */
+    border-radius: 50px;
+    border: 1px solid transparent;
+    background-color:grey;
+    
+}
+button::after
+{content:'';
+display:block;
+clear:both;}
+.button > .button02 > button{
+    background-color: #0D345A;
+}
+.button a{color: #fff;}
+
+.button01{float: left;}
+

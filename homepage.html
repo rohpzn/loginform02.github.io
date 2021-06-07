@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에베레스트</title>
+    <!-- <link href="css/에베레스트.css" rel="stylesheet"> -->
+    <style>
+        *{margin:0; padding:0;}
+        li{list-style:none;}
+        a{text-decoration:none; display:block; color:#333;}
+        legend{position:absolute; left:-99999px;}
+        fieldset{border:0;}
+
+        body{background-image:  url(img/mountain.jpg);}
+        .wrap{
+            width:646px;
+            /* background-color:lightgoldenrodyellow; */
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .wrap h1{
+            text-align: center;
+            font-size: 60px;
+            margin-bottom:50px;}
+        .wrap h1 a{color:white;}
+        .wrap label{position:absolute; left:-99999px;}
+        input[type="text"], input[type="password"]
+        {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #737171;
+            box-sizing: border-box;
+            font-size:18px;
+            border-radius: 50px;
+            background-color: rgb(255, 255, 255, .5);
+            margin: 10px 0;
+            padding: 0 35px;
+        }
+        input[type="text"], input[type="password"]
+        { outline: 1px solid transparent;}
+        button{
+            width:100%;
+            height:100px;
+            /* border: 1px solid #737171; */
+            box-sizing:border-box;
+            border-radius: 50px;
+            background-color: rgb(13,52,90, .8);
+            margin: 10px 0;
+            border: 0;}
+        button a{color:#fff;
+            font-weight:bold;
+            font-size: 18px;}
+        .sec{
+             width: 500px;
+             /* background-color:lightpink; */
+             margin: 75px auto;
+             text-align:center;
+            
+            
+        }
+        .sec_in div{
+            display: inline-block;
+            padding: 0 10px;}
+        .sec02{
+            height: 80px;
+            background-color:lightpink;
+        }
+        
+        .sec02 a{
+            font-size: 18px;
+            color: #fff;
+            text-align:center;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <form action="" method="POST">
+            <h1><a href="#">LOGO</a></h1>
+            <fieldset>
+                <legend>로그인 페이지</legend>
+                <div>
+                    <label for="id">아이디</label>
+                    <input type="text" id="id" placeholder="아이디">
+                </div>
+                <div>
+                    <label for="pass">비밀번호</label>
+                    <input type="password" id="pass" placeholder="비밀번호">
+                </div>
+            </fieldset>
+            <button><a href="#">로그인</a></button>
+        </form>
+    </div>
+    <div class="sec">
+        <div class="sec_in">
+            <div>
+                <a href="#"><img src="img/kakao.png" alt="카카오"/></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/naver.png" alt="네이버"/></a>
+            </div>
+            <div>
+                <a href="#"><img src="img/twitter.png" alt="트위터"/></a>
+            </div>
+        </div>
+    </div>
+    <div class="sec02">
+        <div class="sec02_in">
+            <div>
+                <p><a href="#">회원가입</a></p>
+            </div>
+            <div>
+                <p><a href="#">아이디 / 비밀번호 찾기</a></p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

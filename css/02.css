@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+*{margin:0; padding: 0;}
+li{list-style: none;}
+a{text-decoration:none; display: block; color:#333;}
+fieldset{border:0;}
+legend{position:absolute; left:-99999px;}
+
+#form{
+    width: 375px;
+    
+}
