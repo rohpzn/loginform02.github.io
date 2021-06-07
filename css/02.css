@@ -8,5 +8,5 @@ legend{position:absolute; left:-99999px;}
 
 #form{
     width: 375px;
-    
+    border: 1px solid #333;
 }
